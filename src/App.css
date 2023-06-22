@@ -1,0 +1,55 @@
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 800px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  max-width: 1775px;
+  max-height: 885px;
+}
+
+.elementBox{
+  overflow: hidden;
+  border: 1px solid black;
+  padding: 1rem;
+  max-width: 235px;
+  max-height: 235px;
+}
+
+.component {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.component-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.component-delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #f44336;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.component-resizable {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+}
